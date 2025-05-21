@@ -1,0 +1,14 @@
+server:
+    port: 8082
+
+spring:
+    application:
+        name: user-management
+    jpa:
+        hibernate:
+            ddl-auto: update
+    datasource:
+        driver-class-name: org.h2.Driver
+        username: admin
+        password: admin123
+
