@@ -8,7 +8,13 @@ spring:
         hibernate:
             ddl-auto: update
     datasource:
+        url: jdbc:h2:mem:userdb
         driver-class-name: org.h2.Driver
         username: admin
         password: admin123
+    h2:
+        console:
+            enabled: true
+
+
 
